@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-image: url(fondop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 0;
+    
+}
+.container {
+    
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid rgb(215, 77, 18);
+    box-shadow: 4px 4px 20px 0px rgba(212, 87, 10, 0.15);
+    background-size: 100% 100%;
+    position: relative;
+    width: 80%; /* o el ancho deseado */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contenedorimg{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.segundocontenedor{
+    display: flex;
+    align-items: end;
+    position: absolute;
+    right: 50px;
+    bottom: 500px;
+    width: 40%;
+
+    
+}
+
+
+.panadero{
+  
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
+    width: 666px; /* Define el ancho deseado */
+    height: 300px; /* Define la altura deseada */
+}
+.logomio{
+    
+    position: absolute;
+    bottom: 500px;
+    right: -600px;
+    width: 100px; /* Define el ancho deseado */
+    height: 100px; /* Define la altura deseada */
+}
+.info{
+    flex: 1;
+    padding: 3rem;
+}
+/*.button62{
+    padding: 25px 40px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2rem;
+}*/
+.conteniendotexto{
+    margin: 30px 0 16px 0; /*alterando el espacio entre objetos */
+    width: 80%;
+}
+.contenedorbotones {
+    display: flex;
+    gap: 2em;
+}
+.botoncopia{
+    display: flex;
+    position: absolute;
+    right: -100px;
+    width: 40%;
+}
+.inputuser{ 
+    width: 75%;
+    height: 72px;
+    border-radius: 16px;
+    background-color: rgb(214, 130, 56);
+    border: none;
+    color: orangered;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+
+}
+h1{
+    font-family: serif;
+    font-size: 100px;
+    bottom: 20px;
+    color: red;
+    text-align: center;
+
+}
+p,button{
+    font-family: sans-serif; 
+    color: red;
+}
+.textoencriptador{
+    font-size: 20px;
+}
+input::placeholder {
+    color: red; /* Puedes cambiar el color según tus preferencias */
+  }
+  
+
+
