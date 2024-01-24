@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resetcss.css">
+    <link rel="stylesheet" href="estilosdepagina.css">
+    <link rel="stylesheet" href="estilosbotones.css">
+    
+    <title>Reto 1</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <h1>Encriptador Arcano!</h1>
+    <div class="container">
+    <div class="contenedorimg">
+    <div class="info">
+    <div class="conteniendotexto">
+            
+            <p class="textoencriptador">Por favor ingrese cualquier palabra o frase solo minusculas y sin acentos y la encriprare!</p>
+    </div>
+    <input type="text" id="inputUser" class="inputuser" placeholder="Ingrese palabra(s)!">
+    <div id="contenedorbotones">
+        <button id="encriptar" onclick="encriptar();" class="button-62">Encriptar</button>
+        <button id="desencriptar" onclick="desencriptar();" class="button-62">Desencriptar</button>
+        
+    </div>
+    </div>
+            <img src="hutaoparaproyecto.png" alt="pantheon" class="panadero">
+            <img src="logocorrex-removebg-preview.png" alt="logoArcano" class="logomio">
+    </div>
+    <div class="segundocontenedor">
+        <input type="text" class="inputuser" id="respuestas" placeholder="resultado aqui!">
+        
+    </div>
+    <div class="botoncopia">
+        <button id="copia" class="button-62" onclick="copiar();">Copiar</button>
+    </div>
+    </div>  
+        <script src="logica.js"></script>
+    
+</body>
